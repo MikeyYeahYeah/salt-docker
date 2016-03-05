@@ -6,6 +6,6 @@ dependencies:
   pre:
      - sudo pip install docker-compose
   override:
-     - sudo apt-get install docker-engine
+     - sudo apt-get upgrade docker-engine
   post:
     - sudo docker-compose up
