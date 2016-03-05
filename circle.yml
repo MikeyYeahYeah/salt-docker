@@ -1,0 +1,8 @@
+machine:
+  services:
+    - docker
+
+dependencies:
+  pre:
+     - sudo pip install docker-compose
+     - sudo docker-compose up
